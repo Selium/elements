@@ -1,0 +1,92 @@
+/* Elements */
+
+body {
+	background-color: yellow;
+	color: black;
+	font-family: sans-serif;
+	line-height: 0;
+    font-size: 1em;
+    margin: 0;
+    padding: 0;
+}
+
+
+.circle {
+	width: 10em;
+	height: 10em;
+	background-color: forestgreen;
+	border-radius: 50%;
+	position: absolute;
+	left: 10%;
+	top: 10%;
+}
+
+.line {
+	height: 10px;
+	width: 60%;
+	background-color: rgb(55, 146, 195);
+	transform: rotate(60deg);
+	background: linear-gradient(to top right, #33ccff 0%, #ff99cc 100%);
+    position: absolute 
+        left: 20%;
+}
+
+.line-2 {
+	transform: rotate(5deg);
+	position: absolute;
+	top: 5em;
+}
+
+.circle-2 {
+	width: 10em;
+	height: 10em;
+	position: absolute;
+	top: 200px;
+	left:20%;
+	background: linear-gradient(to top right, #33ccff 0%, #ff99cc 100%);
+}
+
+.triangle {
+	width: 20em;
+	height: 20em;
+	position: absolute;
+	top: 100px;
+	right:20%;
+	background: linear-gradient(red, yellow);
+}
+
+.arrow-up {
+  width: 0;
+  height: 0;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+
+  border-bottom: 5px solid black;
+}
+
+.arrow-down {
+  width: 0;
+  height: 0;
+  border-left: 20px solid transparent;
+  border-right: 20px solid transparent;
+
+  border-top: 20px solid #f00;
+}
+
+.arrow-right {
+  width: 0;
+  height: 0;
+  border-top: 60px solid transparent;
+  border-bottom: 60px solid transparent;
+
+  border-left: 60px solid green;
+}
+
+.arrow-left {
+  width: 0;
+  height: 0;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+
+  border-right:10px solid blue;
+}
